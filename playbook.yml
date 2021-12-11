@@ -14,6 +14,6 @@
         name: sitebloco
         image: wordpress
         links:
-          - "banco.bloco:mysql"
+          - "banco:mysql"
         ports:
           - "80:80"
